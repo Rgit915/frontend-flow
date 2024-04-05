@@ -26,7 +26,7 @@ const App = () => {
 
       <div className="mt-48 max-w-xl">
         <h1 className="text-6xl font-semibold leading-normal"> Frontend <span className="font-light">Flow</span> </h1>
-        <p>Below are projects I've worked on Frontend Friday Challenge by Women Who Code.Those projects are showcasing frontend skills.</p>
+        <p>Below are the projects I've worked on for the Frontend Friday Challenge by Women Who Code. These projects showcase my frontend skills.</p>
 
         <div className="mt-10">
           <a href="#"
@@ -36,7 +36,22 @@ const App = () => {
       </div>
       <img src={developerImage}className="w-full xl:w-1/2 xl:absolute bottom-0 right-20" alt="Developer Image"/>
     </div>
+    <main>
+    <div className="grid grid-cols-2 gap-10 p-5 min-[400px]:grid-cols-3">
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo] relative " ><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">Task #001</span><img src={pcIcon} alt="PC Icon"/></div>
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo]"><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg ">Task #002</span><img src={pcIcon} alt="PC Icon"/></div>
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo]"><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">Task #003</span><img src={pcIcon} alt="PC Icon"/></div>
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo]"><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">Task #004</span><img src={pcIcon} alt="PC Icon"/></div>
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo]"><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">Task #005</span><img src={pcIcon} alt="PC Icon"/></div>
+      <div className="w-full  aspect-video shadow-[0_0_10px_indigo]"><span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">Task #006</span><img src={pcIcon} alt="PC Icon"/></div>
+    </div>
 
+  </main>
+  <footer>
+  <div className="text-center text-sm mt-4 text-indigo-950 py-8 font-bold">
+      Coded by <a href="https://www.linkedin.com/in/rora-alem" className=" underline hover:text-indigo-500">Rora Alem</a>
+    </div>
+  </footer>
 
   </header>
 
