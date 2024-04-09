@@ -1,25 +1,34 @@
-import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
-const NavLinks = () => {
-  <>
-    <NavLink to="/About">About</NavLink>
-    <NavLink to="/Projects">Projects</NavLink>
-    <NavLink to="/Contact">Contact</NavLink>
-  </>;
-};
+import { useState } from "react";
+import { MdClose } from "react-icons/md";
+import NavLinks from "./NavLinks";
 
 const Nav = () => {
-  return (
-    <nav className="w-1/3">
-      <div className="flex justify-between">
-        <NavLinks/>
-      </div>
-      <div>
-        <button><FiMenu/></button>
-      </div>
+  const [isOpen, setOpen] = useState(false);
 
-  </nav>
-  )
+  const toggleMenu = () => {
+   setOpen(!isOpen);
+  };
+
+  return (
+    <>
+    <nav className="flex w-1/3 ">
+      <div className="hidden justify-between w-full md:flex">
+        <NavLinks />
+      </div>
+      <div className="md:hidden">
+        <button className="" onClick={toggleMenu}>
+          {isOpen ? <MdClose/> :  <FiMenu />}
+        </button>
+      </div>
+    </nav>
+    {isOpen &&
+    <div className="flex flex-col items-center basis-full">
+      <NavLinks />
+      </div>}
+    </>
+
+  );
 };
 
 export default Nav;
