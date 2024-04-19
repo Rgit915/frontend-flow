@@ -9,7 +9,7 @@ const Home = () => {
         {tasksData.map((task) => (
           <div
             key={task.id}
-            className="w-full aspect-video shadow-[0_0_10px_indigo] relative rounded-xl"
+            className="w-full h-full aspect-video shadow-[0_0_10px_indigo] relative rounded-xl"
           >
             {/* <span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">
             <p>Task# {task.id}</p>
