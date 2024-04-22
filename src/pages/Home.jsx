@@ -29,11 +29,11 @@ const Home = () => {
                 ))}
               </ul>
               <div className="flex space-x-2">
-                <Button value={"Live Demo"}/>
+                <Button to={task.liveLink} value={"Live Demo"}/>
                 <p>|</p>
-                <Button value={"Code Repo"}/>
+                <Button to={task.codeRepo} value={"Code Repo"}/>
                 <p>|</p>
-                <Button value={"Watch here"}/>
+                <Button to={task.watchHere} value={"Watch here"}/>
               </div>
             </div>
           </div>
