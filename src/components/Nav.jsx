@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <>
-    <nav className="flex w-1/3 ">
+    <nav className="flex md:w-1/3 md:float-right">
       <div className="hidden justify-between w-full md:flex">
         <NavLinks />
       </div>
