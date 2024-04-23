@@ -7,9 +7,10 @@ const Header = () => {
   return (
     <header>
         <div className="container min-h-screen sticky bg-indigo-950 text-white px-28 py-5 z-(20) ">
+          <div className='flex justify-between'>
           <Logo/>
           <Nav/>
-
+          </div>
           <div className="mt-48 max-w-xl">
             <h1 className="text-6xl font-semibold leading-normal">
               Frontend <span className="font-light">Flow</span>{" "}
