@@ -18,12 +18,12 @@ const Nav = () => {
       </div>
       <div className="md:hidden">
         <button className="" onClick={toggleMenu}>
-          {isOpen ? <MdClose/> :  <FiMenu />}
+          {isOpen ? <MdClose className={`absolute z-50 `}/> :  <FiMenu />}
         </button>
       </div>
     </nav>
     {isOpen &&
-    <div className="flex flex-col items-center basis-full">
+    <div className="flex flex-col items-center gap-4 space-y-8 p-24 backdrop-blur-2xl  transition ease-in-out duration-300 absolute inset-y-0 right-0 w-64  uppercase text-xl tracking-wider z-40 md:hidden ">
       <NavLinks />
       </div>}
     </>

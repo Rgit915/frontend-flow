@@ -1,45 +1,39 @@
-import React from "react";
-import tasksData from "../data/tasksData";
-import Button from "../components/Button";
+import developerImage from "../assets/images/developer.png";
 
 const Home = () => {
   return (
-    <main>
-      <div className="grid grid-cols-2 gap-10 p-5 min-[400px]:grid-cols-3">
-        {tasksData.map((task) => (
-          <div
-            key={task.id}
-            className="w-full h-full aspect-video shadow-[0_0_10px_indigo] relative rounded-xl"
-          >
-            {/* <span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">
-            <p>Task# {task.id}</p>
-            </span> */}
-            <img
-              className="bg-cover rounded-xl hover:scale-105 transition-transform duration-700 ease-in-out"
-              src={task.image}
-              alt={`PC Icon ${task.id}`}
-            />
-            <div className="overlay rounded-b-xl space-y-2 font-mono">
-              <ul className="list-none flex space-x-2  ">
-                {/* Using map to render list items */}
-                {task.description.map((item, index) => (
-                  <li key={index} className=" text-slate-200 font-bold  px-2">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <div className="flex space-x-2">
-                <Button to={task.liveLink} value={"Live Demo"}/>
-                <p>|</p>
-                <Button to={task.codeRepo} value={"Code Repo"}/>
-                <p>|</p>
-                <Button to={task.watchHere} value={"Watch here"}/>
-              </div>
-            </div>
+    <>
+      <section className="flex flex-col-reverse justify-center items-center overflow-x-hidden md:flex-col lg:flex-row lg:min-h-screen xl:min-h-screen xl:justify-around">
+        <article className="mt-12 max-w-xl md:flex md:flex-col md:items-center md:justify-center md:w-full lg:max-w-md lg:items-start xl:max-w-lg">
+          <h1 className="text-3xl font-semibold leading-normal tracking-widest md:text-5xl  xl:text-6xl">
+            Frontend <span className="font-light text-indigo-400">Flow</span>
+          </h1>
+          <p className="mt-4">
+            This portfolio shows the projects I've worked on for the Frontend
+            Friday Challenge by Women Who Code. These projects showcase my
+            frontend skills.
+          </p>
+          <div className="mt-10">
+            <a
+              href="/projects"
+              className="bg-indigo-400 text-indigo-950 font-bold rounded-3xl py-3 px-8
+               inline-block mr-4 w-full  text-[16px] hover:bg-transparent hover:border-indigo-300 hover:text-white duration-300 hover:border
+               border border-transparent md:px-4"
+            >
+              Explore projects ...
+            </a>
           </div>
-        ))}
-      </div>
-    </main>
+        </article>
+        <figure>
+          <img
+          src={developerImage}
+          className="w-full md:h-[400px] xl:w-[600px]  xl:h-[600px]  bottom-0 right-20"
+          alt="Developer Image"
+        />
+        </figure>
+
+      </section>
+    </>
   );
 };
 
