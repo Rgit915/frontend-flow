@@ -4,7 +4,7 @@ import Button from "../components/Button";
 const Projects = () => {
   return (
     <main>
-      <div className="grid grid-cols-2 gap-10 p-5 min-[400px]:grid-cols-3">
+      <div className="grid grid-cols-1 gap-10 p-5 min-[400px] md:grid-cols-2 lg:grid-cols-3">
         {tasksData.map((task) => (
           <div
             key={task.id}
@@ -14,14 +14,23 @@ const Projects = () => {
             <p>Task# {task.id}</p>
             </span> */}
             <img
-              className="bg-cover rounded-xl hover:scale-105 transition-transform duration-700 ease-in-out"
+              className="w-full h-2/3 lg:h-full rounded-xl hover:scale-105 transition-transform duration-700 ease-in-out"
               src={task.image}
               alt={`PC Icon ${task.id}`}
             />
-            <div className="overlay rounded-b-xl space-y-2 font-mono">
+            <div className="lg:hidden">
+            <div className="flex space-x-2 absolute px-2 py-4 text-nowrap">
+                <Button to={task.liveLink} value={"Live Demo"}/>
+
+                <Button to={task.codeRepo} value={"Code Repo"}/>
+
+                <Button to={task.watchHere} value={"Watch here"}/>
+              </div>
+               </div>
+            <div className="overlay hidden rounded-b-xl space-y-2 font-mono lg:flex">
               <ul className="list-none flex space-x-2  ">
                 {/* Using map to render list items */}
-                {task.description.map((item, index) => (
+                {task.tools.map((item, index) => (
                   <li key={index} className=" text-slate-200 font-bold  px-2">
                     {item}
                   </li>
