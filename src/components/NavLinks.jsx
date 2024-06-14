@@ -5,7 +5,8 @@ const NavLinks = () => {
     <>
       <NavLink to="about">About</NavLink>
       <NavLink to="projects">Projects</NavLink>
-      <NavLink to="contact">Contact</NavLink>
+      <NavLink to="#">Blog</NavLink>
+      <NavLink to="#">Contact</NavLink>
     </>
   );
 };
