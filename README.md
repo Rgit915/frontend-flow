@@ -39,4 +39,55 @@ Listed below are the front-end projects included in this portfolio:
    - **Live Demo:** [Click here](https://pod-request-access-landing-page-rora.netlify.app/)
    - **Code Repository:** [Click here](https://github.com/Rgit915/pod-request-access-landing-page)
 
+### Task#004: **Space torusim multi-page website**
+   <div style="text-align: center;">
+       <img src="./src/assets/images/task004.png" alt="Task#004 Screenshot" width="500">
+   </div>
 
+   - **Description:** This project is a multi-page space tourism website, designed to test and enhance your skills in building responsive and interactive web pages. The goal is to build the website to match the provided design as closely as possible.
+
+   - **Technologies Used:** ReactJs, Tailwind CSS
+   <!-- - **Live Demo:** [Click here]() -->
+   - **Code Repository:** [Click here](https://github.com/Rgit915/space-tourism-website)
+
+### Task#005: **Base apparel coming soon page**
+   <div style="text-align: center;">
+       <img src="./src/assets/images/task005.png" alt="Task#005 Screenshot" width="500">
+   </div>
+
+   - **Description:** This project is a coming soon page for Base Apparel, designed to test and enhance your CSS skills with some interesting layout details. Additionally, you'll practice basic form validation. The goal is to build the page to match the provided design as closely as possible.
+   - **Technologies Used:** ReactJs, Tailwind CSS
+   - **Live Demo:** [Click here](https://base-apparel-coming-soon-rora.netlify.app/)
+   - **Code Repository:** [Click here](https://github.com/Rgit915/base-apparel-coming-soon-page)
+
+
+### Task#006: **Sunnyside agency landing page**
+   <div style="text-align: center;">
+       <img src="./src/assets/images/task006.png" alt="Task#006 Screenshot" width="500">
+   </div>
+
+   - **Description:** This project is a landing page for an agency, focusing on testing and enhancing your HTML and CSS skills. The goal is to build the page to match the provided design as closely as possible. While the project mainly emphasizes layout and responsiveness, it also includes a small JavaScript component for toggling the mobile navigation menu.
+
+   - **Technologies Used:** ReactJs, Tailwind CSS.
+   - **Live Demo:** [Click here](https://sunnyside-agency-landing-page-rora.netlify.app/)
+   - **Code Repository:** [Click here](https://github.com/Rgit915/sunnyside-agency-landing-page)
+
+### Task#007: **Coding Bootcamp testimonals slider**
+   <div style="text-align: center;">
+       <img src="./src/assets/images/task007.png" alt="Task#007 Screenshot" width="500">
+   </div>
+
+   - **Description:** This project is a landing page featuring a testimonials slider for a coding bootcamp. The challenge is to build the page and make it look as close to the provided design as possible. The project serves as a good practice for JavaScript, particularly for handling slide transitions and animations.
+   - **Technologies Used:** ReactJs, Tailwind CSS.
+   - **Live Demo:** [Click here](https://bootcamp-testimonal-slider-rora.netlify.app/)
+   - **Code Repository:** [Click here](https://github.com/Rgit915/coding-bootcamp-testimonals-slider)
+
+### Task#008: **Blog preview card**
+   <div style="text-align: center;">
+       <img src="./src/assets/images/task008.png" alt="Task#008 Screenshot" width="500">
+   </div>
+
+   - **Description:** This project is a blog preview card, designed as a perfect challenge for beginners to practice and enhance their HTML and CSS skills. The goal is to build the card to match the provided design as closely as possible, focusing on fundamental concepts like HTML structure and the box model.
+   - **Technologies Used:** HTML5, Tailwind CSS.
+   - **Live Demo:** [Click here](https://rgit915.github.io/blog-preview-card/)
+   - **Code Repository:** [Click here](https://github.com/Rgit915/blog-preview-card)
