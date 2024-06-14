@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import developerImage from "../assets/images/developer.png";
 
 const Home = () => {
@@ -14,14 +15,14 @@ const Home = () => {
             frontend skills.
           </p>
           <div className="mt-10">
-            <a
-              href="/projects"
+            <NavLink
+              to="/projects"
               className="bg-indigo-400 text-indigo-950 font-bold rounded-3xl py-3 px-8
                inline-block mr-4 w-full  text-[16px] hover:bg-transparent hover:border-indigo-300 hover:text-white duration-300 hover:border
                border border-transparent md:px-4"
             >
               Explore projects ...
-            </a>
+            </NavLink>
           </div>
         </article>
         <figure>
