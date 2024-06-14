@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-white text-3xl leading-7 tracking-wide py-4">About</h1>
         <p className="">
           This portfolio shows the projects I've worked on for the Frontend
-          Friday Challenge by Women Who Code. These projects showcase my
+          Friday Challenge by Frontend Queens. These projects showcase my
           frontend skills.
         </p>
       </article>
