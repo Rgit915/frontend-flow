@@ -4,7 +4,7 @@ import Button from "../components/Button";
 const Projects = () => {
   return (
     <main>
-      <div className="grid grid-cols-1 gap-10 p-5 min-[400px] md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-10 p-5 min-[400px] md:grid-cols-2 lg:grid-cols-3 mt-8">
         {tasksData.map((task) => (
           <div
             key={task.id}
