@@ -8,7 +8,7 @@
   }
 
   header{
-    @apply min-h-screen  bg-indigo-950 text-rose-200 px-10 py-5 z-[20] overflow-hidden
+    @apply min-h-screen  bg-indigo-950 text-rose-200 px-10 py-5 z-[20] overflow-hidden;
   }
 
   .overlay {
@@ -22,4 +22,20 @@
   p {
     @apply text-rose-100 text-[14px] text-justify mt-2 lg:text-[16px] md:text-center md:max-w-sm xl:text-[18px] xl:text-justify;
   }
+}
+
+.nav-link {
+  font-weight: 700;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: transparent;
+  border-color: #c3dafe;
+  color: white;
 }
