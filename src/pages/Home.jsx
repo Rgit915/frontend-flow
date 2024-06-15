@@ -11,7 +11,7 @@ const Home = () => {
           </h1>
           <p className="mt-4">
             This portfolio shows the projects I've worked on for the Frontend
-            Friday Challenge by Women Who Code. These projects showcase my
+            Friday Challenge by Frontend Queens👑. These projects showcase my
             frontend skills.
           </p>
           <div className="mt-10">
