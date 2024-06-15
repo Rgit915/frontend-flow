@@ -14,34 +14,36 @@ const Projects = () => {
             <p>Task# {task.id}</p>
             </span> */}
             <img
-              className="w-full h-2/3 lg:h-full rounded-xl hover:scale-105 transition-transform duration-700 ease-in-out"
+              className="w-full h-full  rounded-xl hover:scale-75 transition-transform duration-700 ease-in-out object-cover object-left-top"
               src={task.image}
               alt={`PC Icon ${task.id}`}
             />
-            <div className="lg:hidden">
-            <div className="flex space-x-2 absolute px-2 py-4 text-nowrap">
-                <Button to={task.liveLink} value={"Live Demo"}/>
+            {/* <div className="hidden">
+              <div className="flex space-x-2 absolute px-2 py-4 text-nowrap">
+                <Button to={task.liveLink} value={"Live"} />
 
-                <Button to={task.codeRepo} value={"Code Repo"}/>
+                <Button to={task.codeRepo} value={"Code"} />
 
-                <Button to={task.watchHere} value={"Watch here"}/>
+                <Button to={task.watchHere} value={"Watch here"} />
               </div>
-               </div>
-            <div className="overlay hidden rounded-b-xl space-y-2 font-mono lg:flex">
+            </div> */}
+            <div className="overlay  rounded-b-xl space-y-2 font-mono ">
+            <p className=" font-black text-[16px]  lg:text-[18px]">{task.title}</p>
               <ul className="list-none flex space-x-2  ">
+
                 {/* Using map to render list items */}
                 {task.tools.map((item, index) => (
-                  <li key={index} className=" text-slate-200 font-bold  px-2">
-                    {item}
+                  <li key={index} className=" text-slate-200 font-bold text-sm px-2">
+                    #{item}
                   </li>
                 ))}
               </ul>
-              <div className="flex space-x-2">
-                <Button to={task.liveLink} value={"Live Demo"}/>
-                <p>|</p>
-                <Button to={task.codeRepo} value={"Code Repo"}/>
-                <p>|</p>
-                <Button to={task.watchHere} value={"Watch here"}/>
+              <div className="flex justify-center items-center space-x-2 text-nowrap">
+                <Button to={task.liveLink} value={"Live"} />
+
+                <Button to={task.codeRepo} value={"Code Repo"} />
+
+                <Button to={task.watchHere} value={"Watch here"} />
               </div>
             </div>
           </div>
