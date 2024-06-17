@@ -10,6 +10,9 @@ export default {
         'great-vibes': ['Great Vibes', 'cursive'],
         'roboto': ['roboto', 'sans'],
       },
+      colors: {
+        gold: 'rgba(255, 215, 0, 1)',
+      },
     },
 
   },
