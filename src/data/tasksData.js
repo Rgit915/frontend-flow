@@ -6,7 +6,8 @@ import taskImage5 from '../assets/images/task005.png';
 import taskImage6 from '../assets/images/task006.png';
 import taskImage7 from '../assets/images/task007.png';
 import taskImage8 from '../assets/images/task008.png';
-
+import taskImage9 from '../assets/images/task009.png';
+import taskImage10 from '../assets/images/task010.png';
 const taskData = [
   {
     id: '001',
@@ -84,6 +85,24 @@ const taskData = [
     tools: ['HTML5','TAILWINDCSS'],
     codeRepo:"https://github.com/Rgit915/blog-preview-card",
     liveLink:"https://rgit915.github.io/blog-preview-card/",
+  },
+  {
+    id: '009',
+    image: taskImage9,
+    title: 'Age Calculator app',
+    description: [''],
+    tools: ['REACT','TAILWINDCSS'],
+    codeRepo:"https://github.com/Rgit915/age-calculator-app",
+    liveLink:"https://age-calculator-rora.netlify.app/",
+  },
+  {
+    id: '010',
+    image: taskImage10,
+    title: 'Product list with Cart',
+    description: [''],
+    tools: ['NEXTJS','TAILWINDCSS'],
+    codeRepo:"https://github.com/Rgit915/product-list-with-cart",
+    liveLink:"https://product-list-with-cart-rgit915s-projects.vercel.app/",
   },
 ];
 
