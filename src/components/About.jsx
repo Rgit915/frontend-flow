@@ -24,7 +24,7 @@ const About = () => {
             transition={{ bounceDamping: 10, bounceStiffness: 600, delay: 0.5 }}
             className="mt-4"
           >
-            This portfolio shows the projects I've worked on for the Frontend
+            This portfolio shows the projects I`ve worked on for the Frontend
             Friday Challenge by Frontend Queens👑. These projects showcase my
             frontend skills.
           </motion.p>

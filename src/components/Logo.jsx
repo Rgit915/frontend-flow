@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const svgIconVariants = {
@@ -66,7 +65,7 @@ const Logo = () => {
           </text>
           <line
             x1="20" // Starting x-coordinate of the line
-            y1="60" // Starting y-coordinate of the line 
+            y1="60" // Starting y-coordinate of the line
             x2="80" // Ending x-coordinate of the line
             y2="60" // Ending y-coordinate of the line (same as y1)
             stroke="#fecdd3" // Color of the underline
