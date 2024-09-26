@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import developerImage from "../assets/images/developer.png";
+import developerImage from "../../public/images/developer.png";
 import About from "../components/About";
 
 const gridSquareVariants = {
