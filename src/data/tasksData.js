@@ -1,17 +1,7 @@
-import taskImage1 from '../assets/images/task001.png';
-import taskImage2 from '../assets/images/task002.png';
-import taskImage3 from '../assets/images/task003.png';
-import taskImage4 from '../assets/images/pc-icon.png';
-import taskImage5 from '../assets/images/task005.png';
-import taskImage6 from '../assets/images/task006.png';
-import taskImage7 from '../assets/images/task007.png';
-import taskImage8 from '../assets/images/task008.png';
-import taskImage9 from '../assets/images/task009.png';
-import taskImage10 from '../assets/images/task010.png';
 const taskData = [
   {
     id: '001',
-    image: taskImage1,
+    image: './images/task001.png',
     title: 'Result summary component',
     description:'',
     tools: ['HTML', 'CSS', 'JS'],
@@ -21,7 +11,7 @@ const taskData = [
   },
   {
     id: '002',
-    image: taskImage2,
+    image: './images/task002.png',
     title: 'Newsletter signUp page',
     description:'This challenge is to built signup page',
     tools: ['REACT', 'TAILWINDCSS', 'FORMIK'],
@@ -31,7 +21,7 @@ const taskData = [
   },
   {
     id: '003',
-    image: taskImage3,
+    image: './images/task003.png',
     title: 'Pod request access landing page',
     description:'',
     tools: ['REACT', 'TAILWINDCSS', 'FORMIK'],
@@ -41,7 +31,7 @@ const taskData = [
   },
   {
     id: '004',
-    image: taskImage4,
+    image: './images/pc-icon.png',
     title: 'Space tourism multi-page website',
     description:'',
     tools: ['REACT', 'TAILWINDCSS'],
@@ -52,7 +42,7 @@ const taskData = [
 
   {
     id: '005',
-    image: taskImage5,
+    image: './images/task005.png',
     title: 'Base Apparel Coming Soon Page',
     description:'',
     tools: ['REACT', 'TAILWINDCSS'],
@@ -61,7 +51,7 @@ const taskData = [
   },
   {
     id: '006',
-    image: taskImage6,
+    image: './images/task006.png',
     title: 'Sunnyside agency landing page',
     description: [''],
     tools: ['REACT', 'TAILWINDCSS'],
@@ -70,7 +60,7 @@ const taskData = [
   },
   {
     id: '007',
-    image: taskImage7,
+    image: './images/task007.png',
     title: 'Coding Bootcamp testimonals slider',
     description: [''],
     tools: ['REACT', 'TAILWINDCSS'],
@@ -79,7 +69,7 @@ const taskData = [
   },
   {
     id: '008',
-    image: taskImage8,
+    image: './images/task008.png',
     title: 'Blog preview card',
     description: [''],
     tools: ['HTML5','TAILWINDCSS'],
@@ -88,7 +78,7 @@ const taskData = [
   },
   {
     id: '009',
-    image: taskImage9,
+    image: './images/task009.png',
     title: 'Age Calculator app',
     description: [''],
     tools: ['REACT','TAILWINDCSS'],
@@ -97,8 +87,17 @@ const taskData = [
   },
   {
     id: '010',
-    image: taskImage10,
+    image: './images/task010.png',
     title: 'Product list with Cart',
+    description: [''],
+    tools: ['NEXTJS','TAILWINDCSS'],
+    codeRepo:"https://github.com/Rgit915/product-list-with-cart",
+    liveLink:"https://product-list-with-cart-rgit915s-projects.vercel.app/",
+  },
+  {
+    id: '011',
+    image: './images/task011.png',
+    title: 'News Homepage',
     description: [''],
     tools: ['NEXTJS','TAILWINDCSS'],
     codeRepo:"https://github.com/Rgit915/product-list-with-cart",
