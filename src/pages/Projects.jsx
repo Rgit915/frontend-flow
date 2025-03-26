@@ -8,16 +8,17 @@ const Projects = () => {
         {tasksData.map((task) => (
           <div
             key={task.id}
-            className="w-full h-full aspect-video shadow-[0_0_10px_indigo] relative rounded-xl"
+            className="w-full h-64 shadow-[0_0_10px_indigo] relative rounded-xl overflow-hidden"
           >
-            {/* <span className="absolute p-2 bg-indigo-950 text-white rounded-br-lg">
-            <p>Task# {task.id}</p>
-            </span> */}
+            <span className="absolute text-sm p-1 bg-indigo-950 text-white rounded-br-lg">
+            <p>#{task.id}</p>
+            </span>
             <img
-              className="w-full h-full  rounded-xl hover:scale-75 transition-transform duration-700 ease-in-out object-cover object-left-top"
+              className="w-full h-full rounded-xl hover:scale-105 transition-transform duration-700 ease-in-out object-cover"
               src={task.image}
               alt={`PC Icon ${task.id}`}
             />
+
             {/* <div className="hidden">
               <div className="flex space-x-2 absolute px-2 py-4 text-nowrap">
                 <Button to={task.liveLink} value={"Live"} />
@@ -28,12 +29,16 @@ const Projects = () => {
               </div>
             </div> */}
             <div className="overlay  rounded-b-xl space-y-2 font-mono ">
-            <p className=" font-black text-[16px]  lg:text-[18px]">{task.title}</p>
+              <p className=" font-black text-[16px]  lg:text-[18px]">
+                {task.title}
+              </p>
               <ul className="list-none flex space-x-2  ">
-
                 {/* Using map to render list items */}
                 {task.tools.map((item, index) => (
-                  <li key={index} className=" text-slate-200 font-bold text-sm px-2">
+                  <li
+                    key={index}
+                    className=" text-slate-200 font-bold text-sm px-2"
+                  >
                     #{item}
                   </li>
                 ))}
