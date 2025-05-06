@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import developerImage from "../../public/images/developer.png";
 import About from "../components/About";
 
 const gridSquareVariants = {
@@ -38,7 +37,7 @@ const Home = () => {
         </motion.article>
         <motion.figure variants={gridSquareVariants}>
           <motion.img
-            src={developerImage}
+            src="/images/developer.png"
             className="w-full md:h-[400px] xl:w-[600px]  xl:h-[600px]  bottom-0 right-20"
             alt="Developer Image"
           />
