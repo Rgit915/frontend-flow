@@ -186,13 +186,49 @@ const taskData = [
   },
   {
     id: '021',
-    image: './images/pc-icon.png',
+    image: './images/task021.png',
     title: 'Easybank landing page',
     description: [''],
     tools: ['React','TailwindCSS'],
+    codeRepo:"https://github.com/Rgit915/easybank-landing-page",
+    liveLink:"https://easybank-landing-page-rora.netlify.app/",
+  },
+  {
+    id: '022',
+    image: './images/task022.png',
+    title: 'Tip Calculator App',
+    description: [''],
+    tools: ['React','TailwindCSS'],
+    codeRepo:"https://github.com/Rgit915/tip-calculator-app",
+    liveLink:"https://tip-calculator-app-rora.netlify.app/",
+  },
+  {
+    id: '023',
+    image: './images/pc-icon.png',
+    title: 'Huddle landing page',
+    description: [''],
+    tools: ['Coming Soon...'],
     codeRepo:"",
     liveLink:"",
-  }
+  },
+  {
+    id: '024',
+    image: './images/pc-icon.png',
+    title: 'Rock, Paper, Scissors game',
+    description: [''],
+    tools: ['Coming Soon...'],
+    codeRepo:"",
+    liveLink:"",
+  },
+  {
+    id: '025',
+    image: './images/task025.png',
+    title: 'REST Countries Api',
+    description: [''],
+    tools: ['React','TailwindCSS'],
+    codeRepo:"https://github.com/Rgit915/rest-countries-api",
+    liveLink:"https://rest-countries-api-rora.netlify.app/",
+  },
 ];
 
 export default taskData;
