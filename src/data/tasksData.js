@@ -229,6 +229,15 @@ const taskData = [
     codeRepo:"https://github.com/Rgit915/rest-countries-api",
     liveLink:"https://rest-countries-api-rora.netlify.app/",
   },
+  {
+    id: '026',
+    image: './images/task026.png',
+    title: 'Bookmark landing page',
+    description: [''],
+    tools: ['React','TailwindCSS'],
+    codeRepo:"https://github.com/Rgit915/bookmark-landing-page",
+    liveLink:"https://bookmark-landing-page-rora.netlify.app/",
+  },
 ];
 
 export default taskData;
