@@ -1,19 +1,20 @@
-import React from 'react'
-
 const Footer = () => {
   return (
-    <footer>
-    <div className="text-center text-sm mt-4 text-indigo-950 py-8 font-bold">
-      Coded by{" "}
-      <a
-        href="https://www.linkedin.com/in/rora-alem"
-        className=" underline hover:text-indigo-500"
-      >
-        Rora Alem
-      </a>
-    </div>
-  </footer>
-  )
-}
+    <footer className="flex flex-col justify-center items-center p-8 text-center text-sm  bg-blend-overlay">
+      <p className="font-semibold">
+        © {new Date().getFullYear()} Coded with 💗 by{" "}
+        <a
+         href="https://www.linkedin.com/in/rora-alem"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-indigo-500"
+        >
+          Rora Alem
+        </a>
+      </p>
+      <p className="mt-2 text-xs text-gray-500">Built with React & Tailwind CSS</p>
+    </footer>
+  );
+};
 
 export default Footer;
